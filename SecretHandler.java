@@ -1,6 +1,11 @@
-class SecretHandler {
+import java.io.*;
+import java.net.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-   IndexHandler (String name) {
+public class SecretHandler {
+
+   SecretHandler (String name) {
    }
 
    public void run() {
